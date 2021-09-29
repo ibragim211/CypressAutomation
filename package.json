@@ -1,0 +1,22 @@
+{
+    "name": "cypressautomation",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cy:open": "cypress open",
+        "start": "node index.js",
+        "cy:run": "cypress run "
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/node": "^16.7.10",
+        "cypress": "^8.5.0"
+    },
+    "dependencies": {
+        "chai": "^4.3.4",
+        "module_name": "^1.0.0"
+    }
+}
